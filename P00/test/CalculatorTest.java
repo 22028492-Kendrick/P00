@@ -63,12 +63,12 @@ public class CalculatorTest {
 	}
 	
 	@Test
-	public final void testDivide() {
+	public final void testDevide() {
 		int a = 10;
 		int b = 2;
 		
 			Calculator cal = new Calculator();
-			int actual = cal.divide(a, b);
+			int actual = cal.devide(a, b);
 			
 			int expected = 5;
 			assertEquals (expected,actual);	
